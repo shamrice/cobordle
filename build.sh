@@ -14,11 +14,16 @@ echo "--------------------------------"
 echo "By: Erik Eriksen"
 echo "https://github.com/shamrice/cobordle"
 echo 
+if [ ! -d "bin" ]
+then 
+    mkdir -v bin
+fi 
 echo $BUILD_STRING
 echo     
 $BUILD_STRING 
 cp -v ./data/word.list ./bin 
 echo 
 echo 
+
 echo Done.
 echo 
