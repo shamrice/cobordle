@@ -16,7 +16,8 @@ To build, run ```./build.sh```
 ![Game play screen shot](https://i.imgur.com/L84ht57.png) 
 
 ## Video
-Quick video of me fumbling through a puzzle attempt quickly:
-[![Short demo](https://youtu.be/iRQHZE5uqgM)](https://youtu.be/iRQHZE5uqgM)
+Quick video of me fumbling through a puzzle attempt quickly: (Click to view on YouTube) 
+
+[![Short demo](https://img.youtube.com/vi/iRQHZE5uqgM/0.jpg)](https://youtu.be/iRQHZE5uqgM)
 
 
