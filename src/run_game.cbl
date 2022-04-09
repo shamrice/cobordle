@@ -35,7 +35,7 @@
            05  ws-crt-status-key-2                pic xx.
              
        77  ws-empty-line                          pic x(80).
-       77  ws-guess-mask                          pic x(20).
+       77  ws-guess-mask                          pic x(18).
        
 
        local-storage section.

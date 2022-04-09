@@ -13,6 +13,7 @@ The ```word.list``` file is expected to contain a five letter word for each line
 To build, run ```./build.sh```
 
 ## Screenshots 
+![Game play screen shot](https://i.imgur.com/L84ht57.png) 
 
 ## Video
 
