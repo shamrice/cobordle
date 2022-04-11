@@ -168,20 +168,17 @@
                exit paragraph 
            end-if 
 
-           perform varying l-word-idx from 1 by 1 
-           until l-word-idx > ws-max-words
-
-               if l-word-list(l-word-idx) = ls-current-word-attempt then 
+           set l-word-idx to 1 
+           search l-word-list 
+               at end 
+                   call "display-info-text" using 
+                       cob-color-red
+                       concat("Word not found in word list: " 
+                           ls-current-word-attempt)
+                   end-call 
+               when l-word-list(l-word-idx) = ls-current-word-attempt 
                    set ls-word-found to true 
-                   exit paragraph *> Shortcut return if found.
-               end-if 
-           end-perform 
-
-           call "display-info-text" using 
-               cob-color-red
-               concat("Word not found in word list: " 
-                   ls-current-word-attempt)
-           end-call 
+           end-search 
 
            exit paragraph.
 
