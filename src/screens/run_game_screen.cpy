@@ -1,7 +1,7 @@
       ******************************************************************
       * Author: Erik Eriksen
       * Create Date: 2022-04-05
-      * Last Modified: 2022-04-09
+      * Last Modified: 2022-04-19
       * Purpose: Screen definition the main game background
       * Tectonics: ./build.sh
       ******************************************************************
@@ -10,7 +10,7 @@
            05  s-title-line
                foreground-color cob-color-white highlight
                background-color cob-color-green.      
-               10  line 1 column  1 from ws-empty-line.              
+               10  line 1 column  1 pic x(80) from ws-empty-line.              
                10  line 1 column 28 value "COBOL WORDLE". 
 
            05  s-rules-text
