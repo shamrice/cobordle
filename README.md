@@ -10,7 +10,7 @@ I didn't include the word list in this repo as it can be found elsewhere online 
 The ```word.list``` file is expected to contain a five letter word for each line in the file. The case of the word does not matter. Blank lines are ignored.
 
 ## To build:
-To build, run ```./build.sh```
+To build, run ```make``` in the parent directory. This will create the ```cobordle``` executable in the ```./bin``` directory.
 
 ## Screenshots 
 ![Game play screen shot](https://i.imgur.com/L84ht57.png) 
